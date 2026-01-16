@@ -1,0 +1,26 @@
+{
+  "app": {
+    "title": "Flutter Demo"
+  },
+  "login": {
+    "title": "Authentication Page",
+    "form": {
+      "email": "Email",
+      "password": "Password",
+      "confirm": "Confirm",
+      "errors": {
+        "bad_credentials": "Invalid email or password",
+        "invalid_email": "Invalid email address",
+        "network_error": "Network error, please try again",
+        "default_error": "An error occurred",
+        "password_empty_error": "Password is required"
+      }
+    }
+  },
+  "account": {
+    "title": "Logged In",
+    "welcome": "Hello {firstname}",
+    "disconnect": "Log Out",
+    "manager_access": "Manager Access"
+  }
+}

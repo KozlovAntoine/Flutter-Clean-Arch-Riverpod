@@ -1,0 +1,26 @@
+{
+  "app": {
+    "title": "Démo Flutter"
+  },
+  "login": {
+    "title": "Page d'authentification",
+    "form": {
+      "email": "Email",
+      "password": "Mot de passe",
+      "confirm": "Confirmer",
+      "errors": {
+        "bad_credentials": "Email ou mot de passe invalide",
+        "invalid_email": "Adresse email invalide",
+        "network_error": "Erreur réseau, veuillez réessayer",
+        "default_error": "Une erreur s'est produite",
+        "password_empty_error": "Le mot de passe est requis"
+      }
+    }
+  },
+  "account": {
+    "title": "Connecté",
+    "welcome": "Bonjour {firstname}",
+    "disconnect": "Se déconnecter",
+    "manager_access": "Accès manager"
+  }
+}
