@@ -10,8 +10,8 @@ part '../widgets/login_button.dart';
 part '../widgets/password_section.dart';
 part '../widgets/text_error.dart';
 
-class LoginPageContent extends ConsumerWidget {
-  const LoginPageContent({super.key});
+class LoginPage extends ConsumerWidget {
+  const LoginPage({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

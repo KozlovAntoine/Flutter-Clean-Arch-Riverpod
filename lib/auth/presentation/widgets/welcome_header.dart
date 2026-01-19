@@ -1,4 +1,4 @@
-part of '../pages/account_page_content.dart';
+part of '../pages/account_page.dart';
 
 class WelcomeHeader extends StatelessWidget {
   const WelcomeHeader({required this.firstname, super.key});

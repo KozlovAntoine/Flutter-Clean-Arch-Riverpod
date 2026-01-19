@@ -1,4 +1,4 @@
-part of '../pages/login_page_content.dart';
+part of '../pages/login_page.dart';
 
 class EmailSection extends StatelessWidget {
   const EmailSection({required this.onChanged, this.error, super.key});

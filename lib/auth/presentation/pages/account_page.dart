@@ -7,8 +7,8 @@ part '../widgets/disconnect_button.dart';
 part '../widgets/manager_access_button.dart';
 part '../widgets/welcome_header.dart';
 
-class AccountPageContent extends ConsumerWidget {
-  const AccountPageContent({super.key});
+class AccountPage extends ConsumerWidget {
+  const AccountPage({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

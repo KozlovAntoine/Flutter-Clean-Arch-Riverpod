@@ -1,4 +1,4 @@
-part of '../pages/account_page_content.dart';
+part of '../pages/account_page.dart';
 
 class ManagerAccessButton extends StatelessWidget {
   const ManagerAccessButton({required this.onPressed, super.key});
