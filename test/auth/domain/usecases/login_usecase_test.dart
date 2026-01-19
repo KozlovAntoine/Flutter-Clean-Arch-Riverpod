@@ -8,9 +8,7 @@ import '../../../mocks.mocks.dart';
 import '../../../test_helpers.dart';
 
 void main() {
-  setUpAll(() {
-    setupMockito();
-  });
+  setUpAll(setupMockito);
 
   late LoginUseCase useCase;
   late MockAuthRepository mockRepository;

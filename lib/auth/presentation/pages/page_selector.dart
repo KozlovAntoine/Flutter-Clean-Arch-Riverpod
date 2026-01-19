@@ -13,8 +13,8 @@ class PageSelector extends ConsumerWidget {
     return ref
         .watch(pageSelectorProvider)
         .when(
-          connected: () => AccountPageContent(),
-          disconnected: () => LoginPageContent(),
+          connected: () => const AccountPageContent(),
+          disconnected: () => const LoginPageContent(),
         );
   }
 }

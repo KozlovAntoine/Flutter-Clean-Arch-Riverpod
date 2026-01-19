@@ -1,7 +1,7 @@
 part of '../pages/account_page_content.dart';
 
 class ManagerAccessButton extends StatelessWidget {
-  const ManagerAccessButton({super.key, required this.onPressed});
+  const ManagerAccessButton({required this.onPressed, super.key});
 
   final VoidCallback onPressed;
 

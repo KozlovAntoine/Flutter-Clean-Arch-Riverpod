@@ -4,9 +4,9 @@ import 'package:tuto_riverpod_clean_arch/auth/domain/usecases/params/login_param
 import 'package:tuto_riverpod_clean_arch/core/usecases/usecase.dart';
 
 class LoginUseCase implements UseCase<UserState, LoginParams> {
-  final AuthRepository _repository;
-
   LoginUseCase(this._repository);
+
+  final AuthRepository _repository;
 
   @override
   Future<UserState> execute(LoginParams params) async {

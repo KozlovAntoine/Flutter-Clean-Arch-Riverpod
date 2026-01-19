@@ -15,10 +15,10 @@ AuthRepository authRepository(Ref ref) {
 }
 
 class AuthRepositoryImpl extends AuthRepository {
+  AuthRepositoryImpl(this.remoteDataSource, this.fakeDataSource);
+
   final AuthRemoteDataSource remoteDataSource;
   final AuthFakeDataSource fakeDataSource;
-
-  AuthRepositoryImpl(this.remoteDataSource, this.fakeDataSource);
 
   // You can have multiples data source and have logic
   @override

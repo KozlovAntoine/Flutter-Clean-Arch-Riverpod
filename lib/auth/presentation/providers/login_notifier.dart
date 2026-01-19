@@ -1,8 +1,7 @@
 import 'package:riverpod_annotation/riverpod_annotation.dart';
+import 'package:tuto_riverpod_clean_arch/auth/domain/entities/user.dart';
 import 'package:tuto_riverpod_clean_arch/auth/domain/services/user_service.dart';
 import 'package:tuto_riverpod_clean_arch/auth/presentation/states/login_form_state.dart';
-
-import '../../domain/entities/user.dart';
 
 part 'login_notifier.g.dart';
 

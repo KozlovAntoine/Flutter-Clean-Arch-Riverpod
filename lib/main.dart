@@ -9,10 +9,10 @@ void main() async {
 
   runApp(
     EasyLocalization(
-      supportedLocales: [Locale('en'), Locale('fr')],
+      supportedLocales: const [Locale('en'), Locale('fr')],
       path: 'assets/translations',
-      fallbackLocale: Locale('en'),
-      child: ProviderScope(child: const MyApp()),
+      fallbackLocale: const Locale('en'),
+      child: const ProviderScope(child: MyApp()),
     ),
   );
 }
@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: PageSelector(),
+      home: const PageSelector(),
     );
   }
 }

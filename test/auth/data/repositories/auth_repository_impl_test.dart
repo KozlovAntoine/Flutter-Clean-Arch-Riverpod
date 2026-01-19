@@ -7,9 +7,7 @@ import '../../../mocks.mocks.dart';
 import '../../../test_helpers.dart';
 
 void main() {
-  setUpAll(() {
-    setupMockito();
-  });
+  setUpAll(setupMockito);
 
   late AuthRepositoryImpl repository;
   late MockAuthRemoteDataSource mockRemoteDataSource;

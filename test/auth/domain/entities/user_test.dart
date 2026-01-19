@@ -23,7 +23,7 @@ void main() {
         passwordEmptyError: () => fail('Should not be passwordEmptyError'),
         badCredentialsError: () => fail('Should not be badCredentialsError'),
         networkError: () => fail('Should not be networkError'),
-        defaultError: (_, __) => fail('Should not be defaultError'),
+        defaultError: (_, _) => fail('Should not be defaultError'),
       );
     });
 

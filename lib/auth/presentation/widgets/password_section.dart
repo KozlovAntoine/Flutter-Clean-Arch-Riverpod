@@ -1,9 +1,9 @@
 part of '../pages/login_page_content.dart';
 
 class PasswordSection extends StatelessWidget {
-  const PasswordSection({super.key, required this.onChanged, this.error});
+  const PasswordSection({required this.onChanged, super.key, this.error});
 
-  final Function(String) onChanged;
+  final void Function(String) onChanged;
   final String? error;
 
   @override

@@ -1,7 +1,7 @@
 part of '../pages/account_page_content.dart';
 
 class WelcomeHeader extends StatelessWidget {
-  const WelcomeHeader({super.key, required this.firstname});
+  const WelcomeHeader({required this.firstname, super.key});
 
   final String firstname;
 

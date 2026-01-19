@@ -1,7 +1,7 @@
 part of '../pages/account_page_content.dart';
 
 class DisconnectButton extends StatelessWidget {
-  const DisconnectButton({super.key, required this.onPressed});
+  const DisconnectButton({required this.onPressed, super.key});
 
   final VoidCallback onPressed;
 

@@ -1,7 +1,7 @@
 part of '../pages/login_page_content.dart';
 
 class TextError extends StatelessWidget {
-  const TextError({super.key, required this.error});
+  const TextError({required this.error, super.key});
 
   final String error;
 

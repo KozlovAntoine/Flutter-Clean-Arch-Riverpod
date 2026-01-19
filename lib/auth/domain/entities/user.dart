@@ -3,10 +3,10 @@ import 'package:freezed_annotation/freezed_annotation.dart';
 part 'user.freezed.dart';
 
 class UserEntity {
+  UserEntity({required this.id, required this.name});
+
   final String id;
   final String name;
-
-  UserEntity({required this.id, required this.name});
 }
 
 @freezed

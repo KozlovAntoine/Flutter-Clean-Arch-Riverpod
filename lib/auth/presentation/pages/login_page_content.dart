@@ -20,21 +20,21 @@ class LoginPageContent extends ConsumerWidget {
     return Scaffold(
       appBar: AppBar(title: Text('login.title'.tr())),
       body: Padding(
-        padding: const EdgeInsets.all(16.0),
+        padding: const EdgeInsets.all(16),
         child: ListView(
           children: [
             EmailSection(onChanged: notifier.setEmail, error: state.emailError),
-            SizedBox(height: 16),
+            const SizedBox(height: 16),
             PasswordSection(
               onChanged: notifier.setPassword,
               error: state.passwordError,
             ),
             if (state.error != null)
               Padding(
-                padding: const EdgeInsets.only(top: 8.0),
+                padding: const EdgeInsets.only(top: 8),
                 child: TextError(error: state.error!),
               ),
-            SizedBox(height: 16),
+            const SizedBox(height: 16),
             LoginButton(onPressed: notifier.submit, isLoading: state.isLoading),
           ],
         ),

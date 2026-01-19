@@ -55,4 +55,4 @@ final class PageSelectorNotifierProvider
 }
 
 String _$pageSelectorNotifierHash() =>
-    r'de6c3a5dfdd79ea98246362a2a2aef3ff816b17a';
+    r'979b67b57822d3b8fbdb78ea1bf0191facb090af';

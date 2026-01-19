@@ -17,7 +17,7 @@ AuthFakeDataSource authFakeDataSource(Ref ref) {
 class AuthFakeDataSource {
   Future<UserState> login(AuthRequest authRequest) async {
     try {
-      await Future.delayed(const Duration(seconds: 2));
+      await Future<void>.delayed(const Duration(seconds: 2));
       final userModel = _getFakeUserModel(authRequest);
       return UserState.data(userModel.toEntity());
     } on Exception catch (exception) {

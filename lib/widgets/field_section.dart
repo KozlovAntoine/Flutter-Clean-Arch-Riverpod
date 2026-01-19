@@ -3,15 +3,15 @@ import 'package:tuto_riverpod_clean_arch/widgets/my_text_field.dart';
 
 class FieldSection extends StatelessWidget {
   const FieldSection({
-    super.key,
     required this.title,
     required this.onChanged,
     required this.error,
     this.obscureText = false,
+    super.key,
   });
 
   final String title;
-  final Function(String) onChanged;
+  final void Function(String) onChanged;
   final bool obscureText;
   final String? error;
 

@@ -14,9 +14,9 @@ AuthRemoteDataSource authRemoteDataSource(Ref ref) {
 }
 
 class AuthRemoteDataSource {
-  final AuthClient _client;
-
   AuthRemoteDataSource(this._client);
+
+  final AuthClient _client;
 
   Future<UserState> login(AuthRequest authRequest) async {
     try {

@@ -1,9 +1,9 @@
 part of '../pages/login_page_content.dart';
 
 class EmailSection extends StatelessWidget {
-  const EmailSection({super.key, required this.onChanged, this.error});
+  const EmailSection({required this.onChanged, this.error, super.key});
 
-  final Function(String) onChanged;
+  final void Function(String) onChanged;
   final String? error;
 
   @override

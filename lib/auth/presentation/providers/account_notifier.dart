@@ -1,8 +1,7 @@
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:tuto_riverpod_clean_arch/auth/domain/services/user_service.dart';
+import 'package:tuto_riverpod_clean_arch/auth/presentation/states/account_display_state.dart';
 import 'package:tuto_riverpod_clean_arch/other_domain/manager_service.dart';
-
-import '../states/account_display_state.dart';
 
 part 'account_notifier.g.dart';
 
@@ -23,9 +22,9 @@ AccountNotifier accountNotifier(Ref ref) {
 }
 
 class AccountNotifier {
-  UserService userService;
-
   AccountNotifier(this.userService);
+
+  UserService userService;
 
   void logout() {
     userService.logout();
